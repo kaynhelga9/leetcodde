@@ -1,6 +1,6 @@
-// Source : https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
-// Author : Kayn
-// Date   : 2021-04-13
+# Source : https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
+# Author : Kayn
+# Date   : 2021-04-13
 
 ##################################################################################################### 
 #
@@ -33,4 +33,14 @@
 # 	1 <= arr[i] <= 10^5
 #####################################################################################################
 
+class Solution:
+    def replaceElements(self, arr: List[int]) -> List[int]:
 
+        mx = -1
+        
+        # The result of arr is, from right to left, -1, then the bigger value between max and index at i
+        for i in range(len(arr) - 1, -1, -1):
+
+            arr[i], mx = mx, max(arr[i], mx)
+            
+        return arr
