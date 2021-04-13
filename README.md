@@ -1,4 +1,4 @@
-My compiled collection of Leetcode solutions
+
 
 |ID|Name|Language|Difficulty|
 |--|----|------- |----------|
