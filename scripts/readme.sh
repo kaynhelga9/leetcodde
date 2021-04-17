@@ -48,4 +48,4 @@ query_problem ${URL} ${QUESTION_TITLE_SLUG}
 
 FILE=`echo ${FILE} | sed "s/.*\/algorithms/\.\/algorithms/"`
 
-echo "|${QUESTION_FRONTEND_ID}|[${QUESTION_TITLE}](${URL}) | [Python](${FILE})|${QUESTION_DIFFICULTY}|"
+echo "|${QUESTION_FRONTEND_ID}|[${QUESTION_TITLE}](${URL}) | [python](${FILE})|${QUESTION_DIFFICULTY}|"
