@@ -7,7 +7,7 @@
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [python](./algorithms/python/longestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py)|Medium|
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | [python](./algorithms/python/sumOfUniqueElements/SumOfUniqueElements.py)|Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [python](./algorithms/python/squaresOfASortedArray/SquaresOfASortedArray.py)|Easy|
-
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [python](./algorithms/python/longestCommonPrefix/LongestCommonPrefix.py)|Easy|
 
 
 
